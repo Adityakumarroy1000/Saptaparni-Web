@@ -74,7 +74,7 @@ function Donate() {
         </p>
         <p className="text-gray-600 text-sm">
           কোনো প্রশ্ন থাকলে যোগাযোগ করুন 📧:{" "}
-          <span className="underline">support@saptaporni.org</span>
+          <span className="underline">saptaparni2023@gmail.com</span>
         </p>
       </div>
 
