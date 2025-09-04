@@ -1,4 +1,3 @@
-import React from "react";
 import alpona  from "../assets/alpona.jpg"
 import fanush from "../assets/fanush.jpg";
 import prodip from "../assets/prodip.jpg";

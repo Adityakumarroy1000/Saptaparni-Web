@@ -1,4 +1,3 @@
-import React from "react";
 import Donation from "../assets/donation.jpg"
 function Donate() {
   return (

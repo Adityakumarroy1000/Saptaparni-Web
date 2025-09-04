@@ -1,6 +1,6 @@
 // src/components/Join.tsx
 "use client"
-import React, { useState } from "react";
+import { useState } from "react";
 
 
 const Join: React.FC = () => {

@@ -1,6 +1,3 @@
-import React from "react";
-
-
 // Import all member images
 import President from "../assets/members/Diba Barua  (President).jpg";
 import GeneralSecretary from "../assets/members/Bijoy Barua  (General Secretary).jpg";
