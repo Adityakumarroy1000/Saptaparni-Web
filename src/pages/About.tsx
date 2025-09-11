@@ -1,4 +1,4 @@
-import alpona  from "../assets/alpona.jpg"
+import alpona from "../assets/alpona.jpg";
 import fanush from "../assets/fanush.jpg";
 import prodip from "../assets/prodip.jpg";
 import gate from "../assets/gate.jpg";
@@ -11,9 +11,9 @@ function About() {
           🌿 আমাদের সম্পর্কে – সপ্তপর্ণী
         </h1>
         <p className="text-lg md:text-xl text-gray-700 mb-10 max-w-3xl mx-auto leading-relaxed">
-          সপ্তপর্ণী একটি সামাজিক এবং বৌদ্ধ ধর্মীয় একটি সংঘটন। আমরা সমাজে
-          সৃজনশীলতা, ধর্মীয় শিক্ষা এবং মানবিক সহায়তার মাধ্যমে একটি ইতিবাচক
-          পরিবর্তন আনার লক্ষ্যে কাজ করি।
+          সপ্তপর্ণী একটি বৌদ্ধ ধর্মীয়, সামাজিক ও সাংস্কৃতিক সংগঠন।আমরা সমাজে
+          সৃজনশীলতা, ধর্মীয় শিক্ষা, মেধার বিকাশ ঘটানো এবং মানবিক সহায়তার
+          মাধ্যমে একটি ইতিবাচক পরিবর্তন আমার লক্ষ্যে কাজ করে থাকি।
         </p>
       </div>
 
