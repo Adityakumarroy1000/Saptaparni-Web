@@ -6,7 +6,7 @@ import Events from "./pages/Events";
 import Team from "./pages/Team";
 import Join from "./pages/Join";
 import Donate from "./pages/Donate";
-import logo from "./assets/logo.jpg";
+import logo from "./assets/Logo.png";
 import type { JSX } from "react";
 import { useState } from "react"; // <-- Add this at the top
 

@@ -1,24 +1,21 @@
 // Import all member images
 import President from "../assets/members/Diba Barua  (President).jpg";
-import GeneralSecretary from "../assets/members/Bijoy Barua  (General Secretary).jpg";
-import FinanceSecretary from "../assets/members/Ajoy Barua  (Finance Secretary).jpg";
+import GeneralSecretary from "../assets/members/Upama Barua  (Organizing Secretary).jpg";
+import FinanceSecretary from "../assets/members/Dipu Barua Dip  (Office Secretary).jpg";
 import CulturalSecretary from "../assets/members/Anirudra dibbo  (Cultural Secretary).jpg";
-import OfficeSecretary from "../assets/members/Dipu Barua Dip  (Office Secretary).jpg";
+import OfficeSecretary from "../assets/members/Aditta Barua  (Member Secretary).jpg";
 import PublicitySecretary from "../assets/members/Himel Chowdhury  (Publicity Secretary).jpg";
 import VicePresident from "../assets/members/Joy Barua Lablu  (Vice President).jpg";
 import AssociateOrganizingSecretary from "../assets/members/Javain Barua  (Associate Organizing Secretary).jpg";
 import JointGeneralSecretary from "../assets/members/Nibir Mutsuddy  (Joint General Secretary).jpg";
 import ReligiousSecretary from "../assets/members/Nishat Barua  (Religious and Literary Secretary).jpg";
-import OrganizingSecretary from "../assets/members/Upama Barua  (Organizing Secretary).jpg";
-import MemberSecretary from "../assets/members/Aditta Barua  (Member Secretary).jpg";
+import OrganizingSecretary from "../assets/members/Justin Barua Shuvo  (Executive Member).jpg";
 import Executive1 from "../assets/members/Abonti Barua  (Executive Member).jpg";
 import Executive2 from "../assets/members/Aditya 2  (Executive Member).jpg";
 import Executive3 from "../assets/members/Aditya 3  (Executive Member).jpg";
 import Executive4 from "../assets/members/Anurudho Barua  (Executive Member).jpg";
-import Executive5 from "../assets/members/Aniruddha Barua Dip  (Executive Member).jpg";
 import Executive6 from "../assets/members/Dibya Barua  (Executive Member).jpg";
-import Executive7 from "../assets/members/Joy  (Executive Member).jpg";
-import Executive8 from "../assets/members/Justin Barua Shuvo  (Executive Member).jpg";
+import Executive9 from "../assets/members/Shamrat.jpg";
 
 // Default avatar
 import DefaultPic from "../assets/members/default.png";
@@ -29,14 +26,14 @@ const leader = [
 ];
 
 const secretarytop = [
-  { name: "Bijoy Barua", position: "General Secretary", img: GeneralSecretary },
+  { name: "Upama Barua", position: "General Secretary", img: GeneralSecretary },
   {
     name: "Nibir Mutsuddy",
     position: "Joint General Secretary",
     img: JointGeneralSecretary,
   },
   {
-    name: "Upama Barua",
+    name: "Justin Barua Shuvo",
     position: "Organizing Secretary",
     img: OrganizingSecretary,
   },
@@ -45,7 +42,11 @@ const secretarytop = [
     position: "Associate Organizing Secretary",
     img: AssociateOrganizingSecretary,
   },
-  { name: "Ajoy Barua", position: "Finance Secretary", img: FinanceSecretary },
+  {
+    name: "Dipu Barua Dip",
+    position: "Finance Secretary",
+    img: FinanceSecretary,
+  },
   {
     name: "Himel Chowdhury",
     position: "Publicity Secretary",
@@ -59,7 +60,7 @@ const secretary = [
     img: ReligiousSecretary,
   },
   {
-    name: "Dipu Barua Dip",
+    name: "Aditta Barua",
     position: "Office Secretary",
     img: OfficeSecretary,
   },
@@ -68,11 +69,7 @@ const secretary = [
     position: "Cultural Secretary",
     img: CulturalSecretary,
   },
-  {
-    name: "Aditta Barua",
-    position: "Member Secretary",
-    img: MemberSecretary,
-  },
+
 ];
 const teamdeveloper = [
   { name: "Aditya ", position: "Executive Member", img: Executive3 },
@@ -82,23 +79,17 @@ const team = [
   { name: "Abonti Barua", position: "Executive Member", img: Executive1 },
   { name: "Aditya ", position: "Executive Member", img: Executive2 },
   { name: "Anurudho Barua", position: "Executive Member", img: Executive4 },
-  {
-    name: "Aniruddha Barua Dip",
-    position: "Executive Member",
-    img: Executive5,
-  },
   { name: "Dibya Barua", position: "Executive Member", img: Executive6 },
-  { name: "Joy", position: "Executive Member", img: Executive7 },
-  { name: "Justin Barua Shuvo", position: "Executive Member", img: Executive8 },
+  { name: "Shamrat Barua", position: "Executive Member", img: Executive9 },
 
   // Members without pics
   { name: "Sudipta Barua", position: "Executive Member", img: DefaultPic },
   { name: "Anurag", position: "Executive Member", img: DefaultPic },
-  { name: "Tonmoy", position: "Executive Member", img: DefaultPic },
   { name: "Angsu", position: "Executive Member", img: DefaultPic },
   { name: "Ajhora Barua", position: "Executive Member", img: DefaultPic },
   { name: "Antor Barua", position: "Executive Member", img: DefaultPic },
   { name: "Paromita Barua", position: "Executive Member", img: DefaultPic },
+  { name: "Ayushman Barua", position: "Executive Member", img: DefaultPic },
 ];
 
 const Team: React.FC = () => {
